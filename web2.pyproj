@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{625de92a-3af8-4783-862f-c5350e7e1064}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <DjangoSettingsModule>web2.settings</DjangoSettingsModule>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ram\static\ram\images\background.jpg" />
+    <Content Include="ram\static\ram\images\bd.png" />
+    <Content Include="ram\static\ram\images\fundo.jpg" />
+    <Content Include="ram\static\ram\images\logo.png" />
+    <Content Include="ram\static\ram\images\Logo_login.png" />
+    <Content Include="ram\static\ram\style.css" />
+    <Content Include="ram\static\ram\style2.css" />
+    <Content Include="ram\templates\base.html" />
+    <Content Include="ram\templates\coordenador\home.html" />
+    <Content Include="ram\templates\home.html" />
+    <Content Include="ram\templates\professor\professor_profile.html" />
+    <Content Include="ram\templates\registration\login.html" />
+    <Content Include="ram\templates\registration\logout.html" />
+    <Content Include="ram\templates\registration\professor_form.html" />
+    <Content Include="ram\templates\registration\signup.html" />
+    <Content Include="ram\templates\registration\signup_form.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\css\images\back.jpg" />
+    <Content Include="static\css\images\background.jpg" />
+    <Content Include="static\css\images\bd.png" />
+    <Content Include="static\css\images\fundo.jpg" />
+    <Content Include="static\css\images\logo.png" />
+    <Content Include="static\css\images\logo_login.jpg" />
+    <Content Include="static\css\images\logo_login.png" />
+    <Content Include="static\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="ram\admin.py" />
+    <Compile Include="ram\apps.py" />
+    <Compile Include="ram\decorators.py" />
+    <Compile Include="ram\forms.py" />
+    <Compile Include="ram\migrations\0001_initial.py" />
+    <Compile Include="ram\migrations\0002_auto_20190403_2012.py" />
+    <Compile Include="ram\migrations\0003_auto_20190403_2015.py" />
+    <Compile Include="ram\migrations\__init__.py" />
+    <Compile Include="ram\models.py" />
+    <Compile Include="ram\templates\registration\__init__.py" />
+    <Compile Include="ram\templates\__init__.py" />
+    <Compile Include="ram\tests.py" />
+    <Compile Include="ram\urls.py" />
+    <Compile Include="ram\views\coordenador.py" />
+    <Compile Include="ram\views\professor.py" />
+    <Compile Include="ram\views\views.py" />
+    <Compile Include="ram\views\__init__.py" />
+    <Compile Include="ram\__init__.py" />
+    <Compile Include="web2\settings.py" />
+    <Compile Include="web2\urls.py" />
+    <Compile Include="web2\wsgi.py" />
+    <Compile Include="web2\__init__.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ram" />
+    <Folder Include="ram\migrations" />
+    <Folder Include="ram\static\" />
+    <Folder Include="ram\static\ram" />
+    <Folder Include="ram\static\ram\images" />
+    <Folder Include="ram\templates" />
+    <Folder Include="ram\templates\coordenador" />
+    <Folder Include="ram\templates\professor" />
+    <Folder Include="ram\templates\registration" />
+    <Folder Include="ram\views" />
+    <Folder Include="static\" />
+    <Folder Include="static\css" />
+    <Folder Include="static\css\images" />
+    <Folder Include="web2" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
