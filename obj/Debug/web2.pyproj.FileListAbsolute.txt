@@ -1,0 +1,3 @@
+C:\Users\guilh\Documents\PythonProjects\ProjetoFacens\web2\obj\Debug\web2.pyproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\PythonProjects\ProjetoFacens\web2\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\guilh\Documents\PythonProjects\ProjetoFacens\web2\bin\wfastcgi.py
