@@ -46,6 +46,7 @@
     <Content Include="static\css\images\logo_login.jpg" />
     <Content Include="static\css\images\logo_login.png" />
     <Content Include="static\css\style.css" />
+    <Content Include="static\web.config" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
