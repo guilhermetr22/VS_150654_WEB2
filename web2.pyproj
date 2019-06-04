@@ -46,9 +46,6 @@
     <Content Include="static\css\images\logo_login.jpg" />
     <Content Include="static\css\images\logo_login.png" />
     <Content Include="static\css\style.css" />
-    <Content Include="static\web.config" />
-    <Content Include="web.config" />
-    <None Include="WEB2-150654 - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="manage.py" />

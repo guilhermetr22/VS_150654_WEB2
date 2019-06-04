@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '8&-u8b1%e^fgq&4^6pafk2npkbq%63
 #DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['web2-150654.azurewebsites.net']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
